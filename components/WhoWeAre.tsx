@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Phone, ArrowRight, Award } from "lucide-react";
 
 interface WhoWeAreProps {
@@ -92,13 +93,13 @@ export default function WhoWeAre({ onOpenQuote }: WhoWeAreProps) {
               </p>
 
               <div className="flex flex-wrap items-center gap-3 mb-6">
-                <button
-                  onClick={onOpenQuote}
+                <Link
+                  href="/contact"
                   className="inline-flex items-center gap-2 text-xs font-bold text-[#901A1E] hover:text-[#731317] transition-colors cursor-pointer group"
                 >
                   <span className="underline underline-offset-4">Get Free Quote</span>
                   <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-                </button>
+                </Link>
 
                 <a
                   href="tel:+2349162402271"

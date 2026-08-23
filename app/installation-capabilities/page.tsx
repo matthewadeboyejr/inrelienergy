@@ -89,15 +89,15 @@ export default function InstallationCapabilitiesPage() {
 
               {/* Action Buttons */}
               <div className="flex flex-wrap items-center gap-4">
-                <button
-                  onClick={handleOpenQuote}
+                <Link
+                  href="/contact"
                   className="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full text-xs font-bold text-slate-950 bg-white hover:bg-[#901A1E] hover:text-white shadow-xl transition-all cursor-pointer group"
                 >
                   <span>CONTACT US</span>
                   <div className="w-5 h-5 rounded-full bg-slate-950 text-white flex items-center justify-center group-hover:bg-white group-hover:text-slate-950 transition-transform">
                     <ArrowRight className="w-3 h-3" />
                   </div>
-                </button>
+                </Link>
 
                 <a
                   href="tel:+2349162402271"

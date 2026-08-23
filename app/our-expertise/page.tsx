@@ -303,13 +303,13 @@ export default function OurExpertisePage() {
               </div>
 
               <div>
-                <button
-                  onClick={handleOpenQuote}
+                <Link
+                  href="/contact"
                   className="px-8 py-4 rounded-sm bg-[#901A1E] hover:bg-[#731317] text-white text-xs sm:text-sm font-bold uppercase tracking-widest shadow-xl shadow-[#901A1E]/20 transition-all cursor-pointer inline-flex items-center gap-2 group"
                 >
                   <span>CONTACT US</span>
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </button>
+                </Link>
               </div>
             </div>
           </div>

@@ -193,13 +193,13 @@ export default function Products({ onOpenQuote }: ProductsProps) {
               </div>
 
               {/* Action Button */}
-              <button
-                onClick={onOpenQuote}
+              <Link
+                href="/contact"
                 className="w-full py-3 rounded-xl bg-slate-900 text-white font-bold text-xs hover:bg-[#901A1E] transition-colors flex items-center justify-center gap-2 cursor-pointer shadow-sm group-hover:shadow-md"
               >
                 <span>Request Quotation</span>
                 <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
-              </button>
+              </Link>
             </div>
           ))}
         </div>

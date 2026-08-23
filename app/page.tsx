@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import WhoWeAre from "@/components/WhoWeAre";
 import Services from "@/components/Services";
 import WhatWeOffer from "@/components/WhatWeOffer";
+import Achievements from "@/components/Achievements";
 import Products from "@/components/Products";
 import Partners from "@/components/Partners";
 import Footer from "@/components/Footer";
@@ -34,9 +35,12 @@ export default function Home() {
       {/* What We Offer: DisCo Deployments & Renewables */}
       <WhatWeOffer onOpenQuote={handleOpenQuote} />
 
+
+
       {/* Our Products: Hardware Specs & Catalog */}
       <Products onOpenQuote={handleOpenQuote} />
-
+      {/* Major Industry Achievement Showcase */}
+      <Achievements />
       {/* Partners & Regulators Marquee */}
       <Partners />
 

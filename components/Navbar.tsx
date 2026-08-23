@@ -94,22 +94,30 @@ export default function Navbar({ onOpenQuote }: NavbarProps) {
             onMouseEnter={handleAboutEnter}
             onMouseLeave={handleAboutLeave}
           >
-            <button
-              onClick={() => setAboutDropdown(!aboutDropdown)}
+            <Link
+              href="/about"
               className={`flex items-center gap-1 px-3.5 py-1.5 rounded-full transition-all cursor-pointer ${
-                pathname.startsWith("/about") || pathname.startsWith("/management-team") || pathname.startsWith("/our-expertise")
+                pathname === "/about" || pathname.startsWith("/management-team") || pathname.startsWith("/our-expertise")
                   ? "bg-white/20 text-white font-semibold"
                   : "hover:bg-white/15 text-white/90 hover:text-white"
               }`}
             >
               <span>About Us</span>
               <ChevronDown className="w-3 h-3 opacity-75" />
-            </button>
+            </Link>
 
             {aboutDropdown && (
               <div className="absolute top-full left-0 pt-2 z-50 animate-in fade-in slide-in-from-top-1 duration-150">
                 {/* Gapless bridge */}
                 <div className="w-56 p-2 rounded-2xl bg-[#11151f] border border-white/15 shadow-2xl text-white">
+                  <Link
+                    href="/about"
+                    onClick={() => setAboutDropdown(false)}
+                    className="flex flex-col p-2.5 rounded-xl hover:bg-white/10 transition-colors"
+                  >
+                    <span className="text-xs font-bold text-white">About Inreli</span>
+                    <span className="text-[10px] text-slate-400 font-normal">Company Overview &amp; Profile</span>
+                  </Link>
                   <Link
                     href="/management-team"
                     onClick={() => setAboutDropdown(false)}
@@ -287,21 +295,13 @@ export default function Navbar({ onOpenQuote }: NavbarProps) {
 
         {/* Right CTA Button */}
         <div className="flex items-center gap-2.5 shrink-0">
-          <a
-            href="tel:+2349162402271"
-            className="hidden md:flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold text-white/90 hover:text-white hover:bg-white/15 border border-white/15 transition-all"
-          >
-            <Phone className="w-3.5 h-3.5 text-[#901A1E]" />
-            <span>+234 916 240 2271</span>
-          </a>
-
-          <button
-            onClick={onOpenQuote}
+          <Link
+            href="/contact"
             className="flex items-center gap-2 px-5 py-2 rounded-full text-xs font-bold text-white bg-[#901A1E] hover:bg-[#731317] shadow-lg shadow-[#901A1E]/30 transition-all cursor-pointer group"
           >
             <span>Get in touch</span>
             <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
-          </button>
+          </Link>
 
           {/* Mobile menu button */}
           <button
@@ -324,6 +324,13 @@ export default function Navbar({ onOpenQuote }: NavbarProps) {
               className="px-4 py-2 rounded-xl hover:bg-white/10"
             >
               Home
+            </Link>
+            <Link
+              href="/about"
+              onClick={() => setMobileMenuOpen(false)}
+              className="px-4 py-2 rounded-xl hover:bg-white/10 text-white font-semibold"
+            >
+              About Inreli
             </Link>
             <Link
               href="/management-team"
@@ -401,16 +408,14 @@ export default function Navbar({ onOpenQuote }: NavbarProps) {
               Contact
             </Link>
             <div className="pt-4 mt-2 border-t border-white/10 flex flex-col gap-3">
-              <button
-                onClick={() => {
-                  setMobileMenuOpen(false);
-                  onOpenQuote();
-                }}
+              <Link
+                href="/contact"
+                onClick={() => setMobileMenuOpen(false)}
                 className="w-full py-3 rounded-xl bg-[#901A1E] text-white font-bold text-xs uppercase flex items-center justify-center gap-2 shadow-lg shadow-[#901A1E]/30"
               >
                 <span>Request Quote</span>
                 <ArrowRight className="w-4 h-4" />
-              </button>
+              </Link>
             </div>
           </div>
         </div>

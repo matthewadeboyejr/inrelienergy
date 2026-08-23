@@ -35,13 +35,13 @@ export default function Footer({ onOpenQuote }: FooterProps) {
           </div>
 
           <div className="flex flex-wrap items-center gap-3 shrink-0">
-            <button
-              onClick={onOpenQuote}
+            <Link
+              href="/contact"
               className="px-7 py-4 rounded-full bg-[#901A1E] hover:bg-[#731317] text-white text-xs font-bold uppercase tracking-wider shadow-xl shadow-[#901A1E]/30 transition-all flex items-center gap-2 cursor-pointer group"
             >
               <span>Request Quote</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
-            </button>
+            </Link>
 
             <a
               href="https://wa.me/2349162402271"
@@ -198,13 +198,31 @@ export default function Footer({ onOpenQuote }: FooterProps) {
                 <MapPin className="w-4 h-4 text-[#901A1E] shrink-0 mt-0.5" />
                 <span className="leading-snug">6 Waheed Akanni Street, Ago Palace Way, Cele, Lagos, Nigeria.</span>
               </div>
-              <div className="flex items-center gap-2.5">
-                <Phone className="w-4 h-4 text-[#901A1E] shrink-0" />
-                <a href="tel:+2349162402271" className="hover:text-white transition-colors font-bold">
-                  +2349162402271
-                </a>
+              <div className="flex items-start gap-2.5">
+                <Phone className="w-4 h-4 text-[#901A1E] shrink-0 mt-0.5" />
+                <div className="flex flex-col gap-0.5">
+                  <a href="tel:+2349162402271" className="hover:text-white transition-colors font-semibold">
+                    +234 916 240 2271
+                  </a>
+                  <a href="tel:091194000025" className="hover:text-white transition-colors font-semibold">
+                    091194000025
+                  </a>
+                </div>
               </div>
-              <div className="flex items-center gap-2.5">
+              <div className="pt-2 border-t border-white/10 space-y-1">
+                <span className="text-[10px] font-mono font-bold text-red-300 uppercase tracking-wider block">
+                  SHS CUSTOMER SERVICE
+                </span>
+                <div className="flex flex-col gap-0.5 text-xs text-white/90 font-medium">
+                  <a href="tel:091194000025" className="hover:text-white transition-colors">
+                    091194000025
+                  </a>
+                  <a href="tel:09042804796" className="hover:text-white transition-colors">
+                    09042804796
+                  </a>
+                </div>
+              </div>
+              <div className="flex items-center gap-2.5 pt-1">
                 <Mail className="w-4 h-4 text-[#901A1E] shrink-0" />
                 <a href="mailto:info@inrelienergy.com" className="hover:text-white transition-colors">
                   info@inrelienergy.com

@@ -124,21 +124,51 @@ export default function ContactPage() {
                     </div>
                   </div>
 
-                  {/* Phone */}
+                  {/* Phone Lines */}
                   <div className="flex items-start gap-4">
                     <div className="w-11 h-11 rounded-2xl bg-[#901A1E]/10 text-[#901A1E] flex items-center justify-center shrink-0">
                       <Phone className="w-5 h-5" />
                     </div>
                     <div>
                       <span className="text-[11px] font-mono font-bold text-slate-500 uppercase tracking-wider block mb-1">
-                        DIRECT PHONE LINE
+                        DIRECT PHONE LINES
                       </span>
-                      <a
-                        href="tel:+2349162402271"
-                        className="text-sm font-bold text-slate-900 hover:text-[#901A1E] transition-colors"
-                      >
-                        +2349162402271
-                      </a>
+                      <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+                        <a
+                          href="tel:+2349162402271"
+                          className="text-sm font-bold text-slate-900 hover:text-[#901A1E] transition-colors"
+                        >
+                          +2349162402271
+                        </a>
+                        <span className="text-slate-300">•</span>
+                        <a
+                          href="tel:091194000025"
+                          className="text-sm font-bold text-slate-900 hover:text-[#901A1E] transition-colors"
+                        >
+                          091194000025
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* SHS Customer Service Phone Numbers */}
+                  <div className="p-4 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-900 flex items-center justify-center shrink-0">
+                      <Phone className="w-4 h-4 text-[#901A1E]" />
+                    </div>
+                    <div className="space-y-1">
+                      <span className="text-[11px] font-mono font-bold text-[#901A1E] uppercase tracking-wider block">
+                        SHS CUSTOMER SERVICE
+                      </span>
+                      <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm font-bold text-slate-900">
+                        <a href="tel:091194000025" className="hover:text-[#901A1E] transition-colors">
+                          091194000025
+                        </a>
+                        <span className="text-slate-400">•</span>
+                        <a href="tel:09042804796" className="hover:text-[#901A1E] transition-colors">
+                          09042804796
+                        </a>
+                      </div>
                     </div>
                   </div>
 

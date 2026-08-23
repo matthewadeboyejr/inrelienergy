@@ -30,7 +30,7 @@ const executives = [
     ],
     highlights: ["25+ Years Power Industry", "Resident Expert NERC Capacity Building", "Adviser to UK Eastern Energy (Eon)", "AfDB Assessment & NNPC Training"],
   },
-  {
+  /* {
     name: "Joseph Akinyanmi",
     degrees: "Masters Measurement & Evaluation, HSE Certified",
     role: "Production / Factory Manager",
@@ -40,7 +40,7 @@ const executives = [
       "He currently holds a Masters degree in Measurement and Evaluation, Meter installation Work at Height, and HSE certificates, amidst others.",
     ],
     highlights: ["9+ Years Metering Experience", "MAP, CAPMI & NMMP Supervision", "HUAWEI / Ikeja Electric Mass Metering", "AMI & Head End Systems Expert"],
-  },
+  }, */
 ];
 
 export default function ManagementTeamPage() {

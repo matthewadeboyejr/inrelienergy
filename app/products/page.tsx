@@ -135,13 +135,13 @@ export default function ProductsPage() {
                 </div>
 
                 {/* Quotation Request Button */}
-                <button
-                  onClick={handleOpenQuote}
+                <Link
+                  href="/contact"
                   className="w-full py-3.5 rounded-2xl bg-slate-950 text-white font-bold text-xs hover:bg-[#901A1E] transition-colors flex items-center justify-center gap-2 cursor-pointer shadow-sm group-hover:shadow-md"
                 >
                   <span>Request Quotation</span>
                   <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
-                </button>
+                </Link>
               </div>
             ))}
           </div>
@@ -161,13 +161,13 @@ export default function ProductsPage() {
             </div>
 
             <div className="flex flex-wrap items-center justify-center gap-4 shrink-0">
-              <button
-                onClick={handleOpenQuote}
+              <Link
+                href="/contact"
                 className="px-8 py-4 rounded-full bg-[#901A1E] hover:bg-[#731317] text-white text-xs font-bold uppercase tracking-wider shadow-lg shadow-[#901A1E]/30 transition-all cursor-pointer inline-flex items-center gap-2"
               >
                 <span>Request Custom Quote</span>
                 <ArrowRight className="w-4 h-4" />
-              </button>
+              </Link>
             </div>
           </div>
         </div>

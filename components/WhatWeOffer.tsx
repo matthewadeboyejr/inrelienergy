@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowRight, Sparkles } from "lucide-react";
 
 interface WhatWeOfferProps {
@@ -76,64 +77,31 @@ export default function WhatWeOffer({ onOpenQuote }: WhatWeOfferProps) {
             </div>
 
             {/* CTA Button */}
-            <button
-              onClick={onOpenQuote}
-              className="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full text-xs font-bold text-slate-950 bg-white hover:bg-slate-100 shadow-xl transition-all cursor-pointer group"
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full text-xs font-bold text-slate-950 bg-white hover:bg-[#901A1E] hover:text-white shadow-xl transition-all cursor-pointer group"
             >
               <span>Contact Us</span>
-              <div className="w-5 h-5 rounded-full bg-slate-950 text-white flex items-center justify-center group-hover:translate-x-0.5 transition-transform">
+              <div className="w-5 h-5 rounded-full bg-slate-950 text-white flex items-center justify-center group-hover:bg-white group-hover:text-slate-950 transition-transform">
                 <ArrowRight className="w-3 h-3" />
               </div>
-            </button>
+            </Link>
           </div>
 
-          {/* Right Column (Scrolling Cards Stack with whatweoffer1-4 images) */}
+          {/* Right Column (Scrolling Cards Stack with whatweoffer1-4 images only) */}
           <div className="lg:col-span-6 flex flex-col gap-6">
             {offerCards.map((card) => (
               <div
                 key={card.id}
-                className="p-7 sm:p-8 rounded-[32px] bg-white text-slate-950 shadow-xl flex flex-col justify-between transition-all duration-300 hover:shadow-2xl"
+                className="rounded-[32px] overflow-hidden shadow-2xl relative h-72 sm:h-96 w-full group"
               >
-                {/* Card Top Title & Number */}
-                <div className="flex items-start justify-between gap-4 pb-4 border-b border-slate-200">
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight max-w-xs">
-                    {card.title}
-                  </h3>
-                  <span className="font-mono text-xl sm:text-2xl font-bold text-slate-400">
-                    {card.id}
-                  </span>
-                </div>
-
-                {/* Card Body: Text & Button on Left + Clean Image on Right */}
-                <div className="pt-5 grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
-                  {/* Text & Button */}
-                  <div className="sm:col-span-6 flex flex-col justify-between space-y-4">
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
-                      {card.description}
-                    </p>
-
-                    <div>
-                      <button
-                        onClick={onOpenQuote}
-                        className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-bold text-white bg-slate-950 hover:bg-[#901A1E] transition-colors cursor-pointer group"
-                      >
-                        <span>Learn More</span>
-                        <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
-                      </button>
-                    </div>
-                  </div>
-
-                  {/* Clean Image Container (No writeup on top of image) */}
-                  <div className="sm:col-span-6 relative w-full h-44 sm:h-48 rounded-2xl overflow-hidden bg-slate-100 shadow-inner group">
-                    <Image
-                      src={card.image}
-                      alt={card.alt}
-                      fill
-                      sizes="(max-width: 640px) 100vw, 260px"
-                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                    />
-                  </div>
-                </div>
+                <Image
+                  src={card.image}
+                  alt={card.alt}
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 650px"
+                  className="object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                />
               </div>
             ))}
           </div>

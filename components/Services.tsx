@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import { ArrowRight, ArrowUpRight, Cpu, Sun, Building2, Zap, Check, ChevronRight } from "lucide-react";
 
 interface ServicesProps {
@@ -100,15 +101,15 @@ export default function Services({ onOpenQuote }: ServicesProps) {
             </p>
 
             <div>
-              <button
-                onClick={onOpenQuote}
+              <Link
+                href="/contact"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-xs font-bold text-white bg-slate-950 hover:bg-[#901A1E] shadow-lg transition-all cursor-pointer group"
               >
                 <span>Get in touch</span>
                 <div className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center group-hover:translate-x-0.5 transition-transform">
                   <ArrowRight className="w-3 h-3 text-white" />
                 </div>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -172,13 +173,13 @@ export default function Services({ onOpenQuote }: ServicesProps) {
               <p className="text-xs sm:text-sm text-slate-600 mb-6 font-normal leading-relaxed">
                 {servicesList[activeService].description}
               </p>
-              <button
-                onClick={onOpenQuote}
-                className="px-6 py-3 rounded-full bg-[#901A1E] hover:bg-[#731317] text-white text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-2"
+              <Link
+                href="/contact"
+                className="px-6 py-3 rounded-full bg-[#901A1E] hover:bg-[#731317] text-white text-xs font-bold uppercase tracking-wider transition-all inline-flex items-center gap-2"
               >
                 <span>Request Service Quote</span>
                 <ArrowRight className="w-3.5 h-3.5" />
-              </button>
+              </Link>
             </div>
 
             <div className="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-4">

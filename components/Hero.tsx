@@ -90,17 +90,25 @@ export default function Hero({ onOpenQuote }: HeroProps) {
                 onMouseEnter={handleAboutEnter}
                 onMouseLeave={handleAboutLeave}
               >
-                <button
-                  onClick={() => setAboutDropdown(!aboutDropdown)}
+                <Link
+                  href="/about"
                   className="flex items-center gap-1 px-3.5 py-1.5 rounded-full hover:bg-white/15 text-white/90 hover:text-white transition-all cursor-pointer"
                 >
                   <span>About Us</span>
                   <ChevronDown className="w-3 h-3 opacity-75" />
-                </button>
+                </Link>
 
                 {aboutDropdown && (
                   <div className="absolute top-full left-0 pt-2 z-50 animate-in fade-in slide-in-from-top-1 duration-150">
                     <div className="w-56 p-2 rounded-2xl bg-[#11151f] border border-white/15 shadow-2xl text-white">
+                      <Link
+                        href="/about"
+                        onClick={() => setAboutDropdown(false)}
+                        className="flex flex-col p-2.5 rounded-xl hover:bg-white/10 transition-colors"
+                      >
+                        <span className="text-xs font-bold text-white">About Inreli</span>
+                        <span className="text-[10px] text-slate-400 font-normal">Company Overview &amp; Profile</span>
+                      </Link>
                       <Link
                         href="/management-team"
                         onClick={() => setAboutDropdown(false)}
@@ -264,13 +272,13 @@ export default function Hero({ onOpenQuote }: HeroProps) {
 
             {/* Right CTA Button */}
             <div className="flex items-center gap-3 shrink-0">
-              <button
-                onClick={onOpenQuote}
+              <Link
+                href="/contact"
                 className="flex items-center gap-2 px-5 py-2 rounded-full text-xs font-bold text-white bg-[#901A1E] hover:bg-[#731317] shadow-lg shadow-[#901A1E]/30 transition-all cursor-pointer group"
               >
                 <span>Get in touch</span>
                 <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -282,15 +290,15 @@ export default function Hero({ onOpenQuote }: HeroProps) {
             metering and power sector.
           </p>
 
-          <button
-            onClick={onOpenQuote}
+          <Link
+            href="/contact"
             className="flex items-center gap-3 px-7 py-3.5 rounded-full text-xs sm:text-sm font-bold text-slate-950 bg-white hover:bg-[#901A1E] hover:text-white shadow-2xl transition-all duration-300 cursor-pointer group"
           >
             <span>Get in touch</span>
             <div className="w-6 h-6 rounded-full bg-slate-950 text-white flex items-center justify-center group-hover:bg-white group-hover:text-slate-950 transition-colors">
               <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
             </div>
-          </button>
+          </Link>
         </div>
       </div>
     </section>
