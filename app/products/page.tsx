@@ -129,26 +129,17 @@ export default function ProductsPage() {
                   </div>
 
                   {/* Technical Specifications */}
-                  <div className="p-3 rounded-xl bg-slate-50 border border-slate-100 text-[11px] font-mono text-slate-600 mb-6">
+                  <div className="p-3 rounded-xl bg-slate-50 border border-slate-100 text-[11px] font-mono text-slate-600 mt-auto">
                     {product.specs}
                   </div>
                 </div>
-
-                {/* Quotation Request Button */}
-                <Link
-                  href="/contact"
-                  className="w-full py-3.5 rounded-2xl bg-slate-950 text-white font-bold text-xs hover:bg-[#901A1E] transition-colors flex items-center justify-center gap-2 cursor-pointer shadow-sm group-hover:shadow-md"
-                >
-                  <span>Request Quotation</span>
-                  <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
-                </Link>
               </div>
             ))}
           </div>
 
           {/* Compliance & Standards Banner */}
-          <div className="p-8 sm:p-12 rounded-[36px] bg-[#11151c] text-white shadow-xl flex flex-col lg:flex-row items-center justify-between gap-8">
-            <div className="space-y-3 max-w-2xl text-center lg:text-left">
+          <div className="p-8 sm:p-12 rounded-[36px] bg-[#11151c] text-white shadow-xl">
+            <div className="space-y-3 max-w-3xl">
               <span className="text-xs font-mono font-bold text-[#901A1E] uppercase tracking-wider block">
                 QUALITY &amp; REGULATORY COMPLIANCE
               </span>
@@ -158,16 +149,6 @@ export default function ProductsPage() {
               <p className="text-xs sm:text-sm text-slate-300 leading-relaxed font-normal">
                 All Inreli smart energy meters, maximum demand systems, and circuit breakers undergo stringent type testing and calibration at our factory laboratory in full compliance with Standards Organisation of Nigeria (SON) and Nigerian Electricity Management Services Agency (NEMSA).
               </p>
-            </div>
-
-            <div className="flex flex-wrap items-center justify-center gap-4 shrink-0">
-              <Link
-                href="/contact"
-                className="px-8 py-4 rounded-full bg-[#901A1E] hover:bg-[#731317] text-white text-xs font-bold uppercase tracking-wider shadow-lg shadow-[#901A1E]/30 transition-all cursor-pointer inline-flex items-center gap-2"
-              >
-                <span>Request Custom Quote</span>
-                <ArrowRight className="w-4 h-4" />
-              </Link>
             </div>
           </div>
         </div>

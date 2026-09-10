@@ -12,8 +12,8 @@ interface ProductsProps {
 export const allProducts = [
   {
     id: "md-meter",
-    name: "Maximum Demand (MD) Smart Meter",
-    code: "MD-METER",
+    name: "HXF-3000",
+    code: "HXF-3000",
     category: "Maximum Demand & Grid Meters",
     image: "/Maximum-Demand-(MD)Meter.png",
     description: "High-precision commercial and industrial Maximum Demand smart meter for LV/HV distribution substations, large commercial facilities, and feeder metering.",
@@ -66,8 +66,8 @@ export const allProducts = [
   },
   {
     id: "hxe-130",
-    name: "Inreli Single Phase Meter (HXE 130)",
-    code: "HXE 130",
+    name: "Inreli Single Phase Meter (HX 130)",
+    code: "HX 130",
     category: "Prepaid Meters",
     image: "/single-Phase-Meter-HXE 130.jpeg",
     description: "Reliable residential single-phase smart prepayment meter with tamper-proof terminal block.",
@@ -75,8 +75,8 @@ export const allProducts = [
   },
   {
     id: "hxe-330",
-    name: "Inreli Three Phase Meter (HXE 330)",
-    code: "HXE 330",
+    name: "Inreli Three Phase Meter (HX 330)",
+    code: "HX 330",
     category: "Prepaid Meters",
     image: "/Inreli-Three-Phase Meter-HXE 330.jpeg",
     description: "Heavy-duty three-phase smart prepaid meter for commercial complexes and industrial loads.",
@@ -139,11 +139,10 @@ export default function Products({ onOpenQuote }: ProductsProps) {
             <button
               key={cat}
               onClick={() => setSelectedCategory(cat)}
-              className={`px-5 py-2 rounded-full text-xs font-semibold transition-all duration-200 cursor-pointer ${
-                selectedCategory === cat
-                  ? "bg-[#901A1E] text-white shadow-md shadow-[#901A1E]/20"
-                  : "bg-white text-slate-600 hover:text-slate-950 hover:bg-slate-100 border border-slate-200/80"
-              }`}
+              className={`px-5 py-2 rounded-full text-xs font-semibold transition-all duration-200 cursor-pointer ${selectedCategory === cat
+                ? "bg-[#901A1E] text-white shadow-md shadow-[#901A1E]/20"
+                : "bg-white text-slate-600 hover:text-slate-950 hover:bg-slate-100 border border-slate-200/80"
+                }`}
             >
               {cat}
             </button>
@@ -157,49 +156,38 @@ export default function Products({ onOpenQuote }: ProductsProps) {
               key={product.id}
               className="rounded-[28px] p-6 bg-white border border-slate-200/80 shadow-sm hover:shadow-xl hover:border-[#901A1E]/30 transition-all duration-300 flex flex-col justify-between group"
             >
-              <div>
-                {/* Image Container with subtle light background */}
-                <div className="relative w-full h-56 rounded-2xl bg-gradient-to-b from-slate-50 to-slate-100/60 p-4 mb-5 overflow-hidden flex items-center justify-center border border-slate-100">
-                  <Image
-                    src={product.image}
-                    alt={product.name}
-                    fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
-                    className="object-contain p-2 group-hover:scale-105 transition-transform duration-500"
-                  />
-                  {/* Category Pill Tag on Top Right */}
-                  <div className="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-white/90 backdrop-blur-sm border border-slate-200 text-[10px] font-mono font-bold text-slate-700 shadow-sm">
-                    {product.code}
-                  </div>
-                </div>
-
-                {/* Product Meta */}
-                <div className="space-y-2 mb-4">
-                  <span className="text-[10px] font-mono font-bold text-[#901A1E] uppercase tracking-wider block">
-                    {product.category}
-                  </span>
-                  <h3 className="text-base font-bold text-slate-950 tracking-tight leading-snug group-hover:text-[#901A1E] transition-colors">
-                    {product.name}
-                  </h3>
-                  <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed font-normal">
-                    {product.description}
-                  </p>
-                </div>
-
-                {/* Technical Specs Pill */}
-                <div className="p-3 rounded-xl bg-slate-50 border border-slate-100 text-[11px] font-mono text-slate-600 mb-6">
-                  {product.specs}
+              {/* Image Container with subtle light background */}
+              <div className="relative w-full h-56 rounded-2xl bg-gradient-to-b from-slate-50 to-slate-100/60 p-4 mb-5 overflow-hidden flex items-center justify-center border border-slate-100">
+                <Image
+                  src={product.image}
+                  alt={product.name}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                  className="object-contain p-2 group-hover:scale-105 transition-transform duration-500"
+                />
+                {/* Category Pill Tag on Top Right */}
+                <div className="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-white/90 backdrop-blur-sm border border-slate-200 text-[10px] font-mono font-bold text-slate-700 shadow-sm">
+                  {product.code}
                 </div>
               </div>
 
-              {/* Action Button */}
-              <Link
-                href="/contact"
-                className="w-full py-3 rounded-xl bg-slate-900 text-white font-bold text-xs hover:bg-[#901A1E] transition-colors flex items-center justify-center gap-2 cursor-pointer shadow-sm group-hover:shadow-md"
-              >
-                <span>Request Quotation</span>
-                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
-              </Link>
+              {/* Product Meta */}
+              <div className="space-y-2 mb-4">
+                <span className="text-[10px] font-mono font-bold text-[#901A1E] uppercase tracking-wider block">
+                  {product.category}
+                </span>
+                <h3 className="text-base font-bold text-slate-950 tracking-tight leading-snug group-hover:text-[#901A1E] transition-colors">
+                  {product.name}
+                </h3>
+                <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed font-normal">
+                  {product.description}
+                </p>
+              </div>
+
+              {/* Technical Specs Pill */}
+              <div className="p-3 rounded-xl bg-slate-50 border border-slate-100 text-[11px] font-mono text-slate-600 mt-auto">
+                {product.specs}
+              </div>
             </div>
           ))}
         </div>

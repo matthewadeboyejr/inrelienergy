@@ -37,169 +37,225 @@ export default function MiniGridPage() {
         </div>
       </section>
 
-      {/* Editorial Headline Hero with Inline Capsule Image */}
-      <section className="pb-12 px-2 sm:px-4 lg:px-6 w-full">
-        <div className="w-full max-w-[1600px] mx-auto space-y-6">
+      {/* Editorial Headline Hero */}
+      <section className="pb-12 md:pb-16 px-2 sm:px-4 lg:px-6 w-full">
+        <div className="w-full max-w-[1600px] mx-auto space-y-5">
           {/* Top Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#901A1E]/10 text-[#901A1E] text-xs font-bold shadow-sm">
             <Sun className="w-3.5 h-3.5" />
             <span>POWER GENERATION &amp; RENEWABLES</span>
           </div>
 
-          {/* Full-width Big Editorial Headline with Inline Image Capsule (Geist 400, 60px, 78px) */}
-          <h1 className="text-[32px] sm:text-[44px] lg:text-[56px] xl:text-[60px] font-normal tracking-tight text-slate-950 leading-[1.25] lg:leading-[78px] w-full">
-            Decentralized clean power{" "}
-            <span className="inline-flex align-middle mx-1 sm:mx-2 relative w-16 sm:w-24 lg:w-28 h-8 sm:h-12 lg:h-13 rounded-full overflow-hidden shadow-sm">
-              <Image
-                src="/solar-home-systems.jpg"
-                alt="Inreli Mini-Grid Array"
-                fill
-                sizes="(max-width: 768px) 100px, 120px"
-                className="object-cover object-center"
-              />
-            </span>{" "}
-            from 10 kW to 10MW, powering localized consumer networks and industrial mini-estates.
+          {/* Clean Big Editorial Headline */}
+          <h1 className="text-3xl sm:text-5xl lg:text-[56px] xl:text-[62px] font-normal tracking-tight text-slate-950 leading-[1.2] lg:leading-[1.15] max-w-5xl">
+            Decentralized clean power from <span className="text-[#901A1E] font-medium">10 kW to 10MW</span>, powering localized consumer networks and industrial mini-estates.
           </h1>
         </div>
       </section>
 
-      {/* Main Sticky-Scroll Section matching Homepage 'What We Offer' Architecture */}
-      <section className="pb-20 md:pb-28 px-2 sm:px-4 lg:px-6 w-full">
-        <div className="w-full max-w-[1600px] mx-auto rounded-[36px] sm:rounded-[44px] bg-[#11151c] text-white p-6 sm:p-12 lg:p-16 shadow-2xl">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-            {/* Left Column (Sticky with Intro & Direct Actions) */}
-            <div className="lg:col-span-6 lg:sticky lg:top-24 flex flex-col items-start justify-between">
-              <div>
-                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#901A1E] text-white text-xs font-bold shadow-sm mb-6">
-                  <Sparkles className="w-3.5 h-3.5 fill-current" />
-                  <span>TECHNICAL ARCHITECTURE</span>
-                </div>
-
-                <h2 className="text-[36px] sm:text-[48px] lg:text-[60px] font-normal tracking-tight text-white leading-[1.3] lg:leading-[78px] mb-6">
-                  Mini-Grid
-                </h2>
-
-                {/* Complete Verbatim Top Section Writeup */}
-                <div className="space-y-5 text-slate-300 text-xs sm:text-sm lg:text-[15px] leading-relaxed font-normal mb-8">
-                  <p>
-                    A <strong className="text-white font-semibold">Mini Grid</strong>, also sometimes referred to as a &ldquo;micro grid or isolated grid&rdquo;, can be defined as a set of electricity generators and possibly energy storage systems interconnected to a distribution network that supplies electricity to a localized group of customers.&rdquo; They involve small-scale electricity generation (10 kW to 10MW) which serves a limited number of consumers via a distribution grid that can operate in isolation from national electricity transmission networks.
-                  </p>
-
-                  <p>
-                    This power delivery architecture can be contrasted to a single customer system such as in the case of a solar home system (SHS). Where there are no distribution network interconnecting customers it can be connected to a centralized grid system, where electrical energy is transmitted over large distances from large central generators where local generators are generally not capable of meeting local demand.
-                  </p>
-                </div>
+      {/* Standalone Intro Banner */}
+      <section className="pb-12 px-2 sm:px-4 lg:px-6 w-full">
+        <div className="w-full max-w-[1600px] mx-auto rounded-[36px] sm:rounded-[44px] bg-[#11151c] text-white p-8 sm:p-12 lg:p-14 shadow-2xl relative overflow-hidden">
+          {/* Background ambient glow */}
+          <div className="absolute top-0 right-0 w-96 h-96 bg-[#901A1E]/15 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20" />
+          
+          <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="lg:col-span-8 space-y-4">
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#901A1E] text-white text-xs font-bold shadow-sm">
+                <Sparkles className="w-3.5 h-3.5 fill-current" />
+                <span>TECHNICAL ARCHITECTURE &amp; CAPABILITIES</span>
               </div>
 
-              {/* Action Buttons */}
-              <div className="flex flex-wrap items-center gap-4">
-                <Link
-                  href="/contact"
-                  className="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full text-xs font-bold text-slate-950 bg-white hover:bg-[#901A1E] hover:text-white shadow-xl transition-all cursor-pointer group"
-                >
-                  <span>CONTACT US</span>
-                  <div className="w-5 h-5 rounded-full bg-slate-950 text-white flex items-center justify-center group-hover:bg-white group-hover:text-slate-950 transition-transform">
-                    <ArrowRight className="w-3 h-3" />
-                  </div>
-                </Link>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white">
+                Mini-Grid Infrastructure
+              </h2>
 
-                <a
-                  href="tel:+2349162402271"
-                  className="inline-flex items-center gap-2 px-5 py-3 rounded-full text-xs font-semibold text-white/90 hover:text-white hover:bg-white/10 border border-white/20 transition-all"
-                >
-                  <Phone className="w-3.5 h-3.5 text-[#901A1E]" />
-                  <span>+234 916 240 2271</span>
-                </a>
-              </div>
+              <p className="text-slate-300 text-xs sm:text-sm lg:text-base leading-relaxed font-normal max-w-3xl">
+                INRELI delivers engineered decentralized mini-grid solutions ranging from <strong className="text-white font-semibold">10 kW to 10MW</strong>. Our power distribution networks integrate clean generation, intelligent STS metering telemetry, and energy storage to supply reliable electricity to localized communities, commercial facilities, and industrial clusters.
+              </p>
             </div>
 
-            {/* Right Column (Scrolling Bento Cards with Verbatim Writeup & Photos) */}
-            <div className="lg:col-span-6 flex flex-col gap-6">
-              {/* Card 01: Core Architecture & SHS Comparison */}
-              <div className="p-7 sm:p-8 rounded-[32px] bg-white text-slate-950 shadow-xl flex flex-col justify-between transition-all duration-300 hover:shadow-2xl">
-                <div className="flex items-start justify-between gap-4 pb-4 border-b border-slate-200">
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight max-w-xs">
-                    Autonomous Operation &amp; Grid Disconnection
-                  </h3>
-                  <span className="font-mono text-xl sm:text-2xl font-bold text-slate-400">
-                    01
-                  </span>
+            <div className="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col items-start sm:items-center lg:items-end gap-4">
+              <Link
+                href="/contact"
+                className="inline-flex items-center gap-2.5 px-8 py-4 rounded-full text-xs font-bold text-slate-950 bg-white hover:bg-[#901A1E] hover:text-white shadow-xl transition-all cursor-pointer group"
+              >
+                <span>CONTACT US</span>
+                <div className="w-5 h-5 rounded-full bg-slate-950 text-white flex items-center justify-center group-hover:bg-white group-hover:text-slate-950 transition-transform">
+                  <ArrowRight className="w-3 h-3" />
                 </div>
+              </Link>
 
-                <div className="pt-5 grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
-                  <div className="sm:col-span-7 space-y-4">
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
-                      Mini-grids have a unique feature as they can operate autonomously without being connected to a centralized grid. However, the mini-grid may be designed to interconnect with the central grid which means it operates under normal conditions as part of the central grid with disconnection occurring only if power quality needs to be maintained.A mini grid, also sometimes referred to as a &ldquo;micro grid or isolated grid&rdquo;, can be defined as a set of electricity generators and possibly energy storage systems interconnected to a distribution network that supplies electricity to a localized group of customers.&rdquo;They involve small-scale electricity generation (10 kW to 10MW) which serves a limited number of consumers via a distribution grid that can operate in isolation from national electricity transmission networks.
-                    </p>
-                  </div>
-                  <div className="sm:col-span-5 relative w-full h-44 sm:h-48 rounded-2xl overflow-hidden bg-slate-100 shadow-inner group">
-                    <Image
-                      src="/solar-home-systems.jpg"
-                      alt="Inreli Mini-Grid Plant"
-                      fill
-                      sizes="(max-width: 640px) 100vw, 240px"
-                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                    />
-                  </div>
+              <a
+                href="tel:+2349162402271"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-xs font-semibold text-white/90 hover:text-white hover:bg-white/10 border border-white/20 transition-all"
+              >
+                <Phone className="w-3.5 h-3.5 text-[#901A1E]" />
+                <span>+234 916 240 2271</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Standalone Technical Architecture Cards */}
+      <section className="pb-20 md:pb-28 px-2 sm:px-4 lg:px-6 w-full">
+        <div className="w-full max-w-[1600px] mx-auto space-y-8">
+          
+          {/* Card 01 (Standalone Full-Width Bento Block) */}
+          <div className="p-8 sm:p-12 lg:p-14 rounded-[36px] sm:rounded-[44px] bg-white text-slate-950 border border-slate-200/80 shadow-lg hover:shadow-2xl transition-all duration-300">
+            <div className="flex items-center justify-between gap-4 pb-6 mb-8 border-b border-slate-100">
+              <div>
+                <span className="text-xs font-mono font-bold text-[#901A1E] uppercase tracking-wider block mb-1">
+                  ARCHITECTURE &amp; CAPACITY
+                </span>
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-950 tracking-tight">
+                  Decentralized Micro-Grid Network
+                </h3>
+              </div>
+              <span className="font-mono text-3xl sm:text-4xl font-bold text-slate-300">
+                01
+              </span>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+              <div className="lg:col-span-7 space-y-5 text-slate-600 text-sm sm:text-base lg:text-lg leading-relaxed font-normal">
+                <p>
+                  A <strong className="text-slate-950 font-semibold">Mini Grid</strong>, also sometimes referred to as a &ldquo;micro grid or isolated grid&rdquo;, can be defined as a set of electricity generators and possibly energy storage systems interconnected to a distribution network that supplies electricity to a localized group of customers.
+                </p>
+                <p>
+                  They involve small-scale electricity generation <strong className="text-slate-950 font-semibold">(10 kW to 10MW)</strong> which serves a limited number of consumers via a distribution grid that can operate in isolation from national electricity transmission networks.
+                </p>
+                <div className="pt-2 flex flex-wrap gap-2">
+                  <span className="px-4 py-1.5 rounded-full bg-slate-100 text-slate-800 text-xs font-mono font-semibold">
+                    • 10 kW – 10MW Scalable Generation
+                  </span>
+                  <span className="px-4 py-1.5 rounded-full bg-slate-100 text-slate-800 text-xs font-mono font-semibold">
+                    • Localized Distribution Network
+                  </span>
+                  <span className="px-4 py-1.5 rounded-full bg-slate-100 text-slate-800 text-xs font-mono font-semibold">
+                    • Hybrid Battery Energy Storage (BESS)
+                  </span>
                 </div>
               </div>
 
-              {/* Card 02: Power Delivery vs SHS & Transmission */}
-              <div className="p-7 sm:p-8 rounded-[32px] bg-white text-slate-950 shadow-xl flex flex-col justify-between transition-all duration-300 hover:shadow-2xl">
-                <div className="flex items-start justify-between gap-4 pb-4 border-b border-slate-200">
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight max-w-xs">
-                    Power Delivery Architecture vs. SHS
-                  </h3>
-                  <span className="font-mono text-xl sm:text-2xl font-bold text-slate-400">
-                    02
-                  </span>
-                </div>
-
-                <div className="pt-5 grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
-                  <div className="sm:col-span-7 space-y-4">
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
-                      This power delivery architecture can be contrasted to a single customer system such as in the case of a solar home system (SHS). Where there are no distribution network interconnecting customers it can be connected to a centralized grid system, where electrical energy is transmitted over large distances from large central generators where local generators are generally not capable of meeting local demand.
-                    </p>
-                  </div>
-                  <div className="sm:col-span-5 relative w-full h-44 sm:h-48 rounded-2xl overflow-hidden bg-slate-100 shadow-inner group">
-                    <Image
-                      src="/whatweoffer2.jpg"
-                      alt="Inreli Mini-Grid Power Network"
-                      fill
-                      sizes="(max-width: 640px) 100vw, 240px"
-                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              {/* Card 03: Small-Scale Generation & Isolated Transmission */}
-              <div className="p-7 sm:p-8 rounded-[32px] bg-white text-slate-950 shadow-xl flex flex-col justify-between transition-all duration-300 hover:shadow-2xl">
-                <div className="flex items-start justify-between gap-4 pb-4 border-b border-slate-200">
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight max-w-xs">
-                    Isolated Transmission &amp; Local Demand
-                  </h3>
-                  <span className="font-mono text-xl sm:text-2xl font-bold text-slate-400">
-                    03
-                  </span>
-                </div>
-
-                <div className="pt-5 space-y-4">
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
-                    Mini-grids have a unique feature as they can operate autonomously without being connected to a centralized grid. However, the mini-grid may be designed to interconnect with the central grid which means it operates under normal conditions as part of the central grid with disconnection occurring only if power quality needs to be maintained. A mini grid, also sometimes referred to as a &ldquo;micro grid or isolated grid&rdquo;, can be defined as a set of electricity generators and possibly energy storage systems interconnected to a distribution network that supplies electricity to a localized group of customers.&rdquo; They involve small-scale electricity generation (10 kW to 10MW) which serves a limited number of consumers via a distribution grid that can operate in isolation from national electricity transmission networks.
-                  </p>
-
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
-                    This power delivery architecture can be contrasted to a single customer system such as in the case of a solar home system (SHS). Where there are no distribution network interconnecting customers it can be connected to a centralized grid system, where electrical energy is transmitted over large distances from large central generators where local generators are generally not capable of meeting local demand.
-                  </p>
-
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
-                    Mini-grids have a unique feature as they can operate autonomously without being connected to a centralized grid. However, the mini-grid may be designed to interconnect with the central grid which means it operates under normal conditions as part of the central grid with disconnection occurring only if power quality needs to be maintained.
-                  </p>
+              <div className="lg:col-span-5 relative w-full h-[280px] sm:h-[340px] lg:h-[380px] rounded-[28px] overflow-hidden bg-slate-100 shadow-inner group">
+                <Image
+                  src="/solar-home-systems.jpg"
+                  alt="Inreli Mini-Grid Solar Array Facility"
+                  fill
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 600px"
+                  className="object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute bottom-4 left-4 right-4 px-4 py-2 rounded-2xl bg-black/60 backdrop-blur-md text-white text-xs font-medium">
+                  Decentralized Solar Array &amp; Substation
                 </div>
               </div>
             </div>
           </div>
+
+          {/* Card 02 (Standalone Full-Width Bento Block - Inverted Layout) */}
+          <div className="p-8 sm:p-12 lg:p-14 rounded-[36px] sm:rounded-[44px] bg-white text-slate-950 border border-slate-200/80 shadow-lg hover:shadow-2xl transition-all duration-300">
+            <div className="flex items-center justify-between gap-4 pb-6 mb-8 border-b border-slate-100">
+              <div>
+                <span className="text-xs font-mono font-bold text-[#901A1E] uppercase tracking-wider block mb-1">
+                  DELIVERY COMPARISON
+                </span>
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-950 tracking-tight">
+                  Power Delivery Architecture vs. SHS &amp; Central Grid
+                </h3>
+              </div>
+              <span className="font-mono text-3xl sm:text-4xl font-bold text-slate-300">
+                02
+              </span>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+              <div className="lg:col-span-5 relative w-full h-[280px] sm:h-[340px] lg:h-[380px] rounded-[28px] overflow-hidden bg-slate-100 shadow-inner group order-2 lg:order-1">
+                <Image
+                  src="/whatweoffer2.jpg"
+                  alt="Inreli Mini-Grid Power Network Distribution"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 600px"
+                  className="object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute bottom-4 left-4 right-4 px-4 py-2 rounded-2xl bg-black/60 backdrop-blur-md text-white text-xs font-medium">
+                  Localized Power Distribution Grid
+                </div>
+              </div>
+
+              <div className="lg:col-span-7 space-y-5 text-slate-600 text-sm sm:text-base lg:text-lg leading-relaxed font-normal order-1 lg:order-2">
+                <p>
+                  This power delivery architecture can be contrasted to a single customer system such as in the case of a solar home system (SHS).
+                </p>
+                <p>
+                  Where there are no distribution networks interconnecting customers, it can be connected to a centralized grid system, where electrical energy is transmitted over large distances from large central generators where local generators are generally not capable of meeting local demand.
+                </p>
+                <div className="pt-2 flex flex-wrap gap-2">
+                  <span className="px-4 py-1.5 rounded-full bg-slate-100 text-slate-800 text-xs font-mono font-semibold">
+                    • Multi-Consumer Network Topology
+                  </span>
+                  <span className="px-4 py-1.5 rounded-full bg-slate-100 text-slate-800 text-xs font-mono font-semibold">
+                    • Elimination of Long-Distance Transmission Losses
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Card 03 (Standalone Full-Width Bento Block) */}
+          <div className="p-8 sm:p-12 lg:p-14 rounded-[36px] sm:rounded-[44px] bg-white text-slate-950 border border-slate-200/80 shadow-lg hover:shadow-2xl transition-all duration-300">
+            <div className="flex items-center justify-between gap-4 pb-6 mb-8 border-b border-slate-100">
+              <div>
+                <span className="text-xs font-mono font-bold text-[#901A1E] uppercase tracking-wider block mb-1">
+                  OPERATION &amp; SYNCHRONIZATION
+                </span>
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-950 tracking-tight">
+                  Autonomous Operation &amp; Grid Interconnection
+                </h3>
+              </div>
+              <span className="font-mono text-3xl sm:text-4xl font-bold text-slate-300">
+                03
+              </span>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+              <div className="lg:col-span-7 space-y-5 text-slate-600 text-sm sm:text-base lg:text-lg leading-relaxed font-normal">
+                <p>
+                  Mini-grids have a unique feature as they can operate <strong className="text-slate-950 font-semibold">autonomously</strong> without being connected to a centralized grid.
+                </p>
+                <p>
+                  However, the mini-grid may be designed to interconnect with the central grid which means it operates under normal conditions as part of the central grid with disconnection occurring only if power quality needs to be maintained.
+                </p>
+                <div className="pt-2 flex flex-wrap gap-2">
+                  <span className="px-4 py-1.5 rounded-full bg-emerald-50 text-emerald-800 text-xs font-mono font-semibold">
+                    ✓ Autonomous Islanded Mode
+                  </span>
+                  <span className="px-4 py-1.5 rounded-full bg-blue-50 text-blue-800 text-xs font-mono font-semibold">
+                    ✓ Central Grid Synchronization
+                  </span>
+                  <span className="px-4 py-1.5 rounded-full bg-amber-50 text-amber-800 text-xs font-mono font-semibold">
+                    ✓ Dynamic Power Quality Disconnection
+                  </span>
+                </div>
+              </div>
+
+              <div className="lg:col-span-5 relative w-full h-[280px] sm:h-[340px] lg:h-[380px] rounded-[28px] overflow-hidden bg-slate-100 shadow-inner group">
+                <Image
+                  src="/whatweoffer3.jpg"
+                  alt="Inreli Substation Synchronization and Protection"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 600px"
+                  className="object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute bottom-4 left-4 right-4 px-4 py-2 rounded-2xl bg-black/60 backdrop-blur-md text-white text-xs font-medium">
+                  Grid Synchronization &amp; Protection Gear
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
 

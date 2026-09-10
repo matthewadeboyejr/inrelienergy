@@ -20,6 +20,7 @@ const partners: PartnerItem[] = [
   { id: "p8", name: "Nigerian Electricity Regulatory Commission (NERC)", image: "/p8.jpeg" },
   { id: "p9", name: "Nigerian Electricity Management Services Agency (NEMSA)", image: "/p9.jpeg" },
   { id: "p10", name: "Standards Organisation of Nigeria (SON)", image: "/p10.png" },
+  { id: "p11", name: "Benin Electricity Distribution Company (BEDC)", image: "/p11.png" },
 ];
 
 export default function Partners() {

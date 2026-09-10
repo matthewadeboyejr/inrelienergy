@@ -152,11 +152,10 @@ export default function Hero({ onOpenQuote }: HeroProps) {
                         <button
                           onMouseEnter={() => setServicesTab("metering")}
                           onClick={() => setServicesTab("metering")}
-                          className={`w-full flex items-center justify-between px-3 py-3 rounded-xl text-xs font-bold transition-all cursor-pointer text-left ${
-                            servicesTab === "metering"
+                          className={`w-full flex items-center justify-between px-3 py-3 rounded-xl text-xs font-bold transition-all cursor-pointer text-left ${servicesTab === "metering"
                               ? "bg-[#901A1E] text-white shadow-md"
                               : "text-slate-300 hover:bg-white/10 hover:text-white"
-                          }`}
+                            }`}
                         >
                           <span>Metering Solution</span>
                           {servicesTab === "metering" ? (
@@ -169,11 +168,10 @@ export default function Hero({ onOpenQuote }: HeroProps) {
                         <button
                           onMouseEnter={() => setServicesTab("power")}
                           onClick={() => setServicesTab("power")}
-                          className={`w-full flex items-center justify-between px-3 py-3 rounded-xl text-xs font-bold transition-all cursor-pointer text-left ${
-                            servicesTab === "power"
+                          className={`w-full flex items-center justify-between px-3 py-3 rounded-xl text-xs font-bold transition-all cursor-pointer text-left ${servicesTab === "power"
                               ? "bg-[#901A1E] text-white shadow-md"
                               : "text-slate-300 hover:bg-white/10 hover:text-white"
-                          }`}
+                            }`}
                         >
                           <span>Power Generation</span>
                           {servicesTab === "power" ? (
@@ -286,8 +284,7 @@ export default function Hero({ onOpenQuote }: HeroProps) {
         {/* Bottom Hero Layout: Headline and Subtitle */}
         <div className="relative z-10 flex flex-col items-start max-w-3xl text-white mt-auto pt-24">
           <p className="text-sm sm:text-base lg:text-lg text-white/95 max-w-xl mb-6 font-light leading-relaxed drop-shadow-md">
-            We are passionate about solving challenges with innovative technological solutions in the Nigerian
-            metering and power sector.
+            Certified smart meters and grid protection hardware engineered for precise utility management.
           </p>
 
           <Link

@@ -196,7 +196,7 @@ export default function Footer({ onOpenQuote }: FooterProps) {
             <div className="space-y-3 text-xs text-slate-300">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#901A1E] shrink-0 mt-0.5" />
-                <span className="leading-snug">6 Waheed Akanni Street, Ago Palace Way, Cele, Lagos, Nigeria.</span>
+                <span className="leading-snug">6 Waheed Akanni Street, Off Bayo Oyewale Street, Ago Palace Way, Okota, Lagos.</span>
               </div>
               <div className="flex items-start gap-2.5">
                 <Phone className="w-4 h-4 text-[#901A1E] shrink-0 mt-0.5" />

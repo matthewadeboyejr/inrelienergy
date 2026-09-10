@@ -46,28 +46,18 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Editorial Headline Hero with Inline Capsule Image */}
-      <section className="pb-12 px-2 sm:px-4 lg:px-6 w-full">
-        <div className="w-full max-w-[1600px] mx-auto space-y-6">
+      {/* Editorial Headline Hero */}
+      <section className="pb-12 md:pb-16 px-2 sm:px-4 lg:px-6 w-full">
+        <div className="w-full max-w-[1600px] mx-auto space-y-5">
           {/* Top Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#901A1E]/10 text-[#901A1E] text-xs font-bold shadow-sm">
             <Sparkles className="w-3.5 h-3.5 fill-current" />
-            <span>24/7 CUSTOMER CARE &amp; INQUIRIES</span>
+            <span>CUSTOMER CARE &amp; INQUIRIES</span>
           </div>
 
-          {/* Full-width Big Editorial Headline with Inline Image Capsule (Geist 400, 60px, 78px) */}
-          <h1 className="text-[32px] sm:text-[44px] lg:text-[56px] xl:text-[60px] font-normal tracking-tight text-slate-950 leading-[1.25] lg:leading-[78px] w-full">
-            Connect with our engineering{" "}
-            <span className="inline-flex align-middle mx-1 sm:mx-2 relative w-16 sm:w-24 lg:w-28 h-8 sm:h-12 lg:h-13 rounded-full overflow-hidden shadow-sm">
-              <Image
-                src="/whatweoffer3.jpg"
-                alt="Inreli Grid Infrastructure"
-                fill
-                sizes="(max-width: 768px) 100px, 120px"
-                className="object-cover object-center"
-              />
-            </span>{" "}
-            and utility consulting team for turnkey energy and metering solutions.
+          {/* Clean Editorial Headline */}
+          <h1 className="text-3xl sm:text-5xl lg:text-[56px] xl:text-[62px] font-normal tracking-tight text-slate-950 leading-[1.2] lg:leading-[1.15] max-w-5xl">
+            Connect with our <span className="text-[#901A1E] font-medium">engineering and utility consulting team</span> for turnkey energy and metering solutions.
           </h1>
         </div>
       </section>
@@ -119,7 +109,7 @@ export default function ContactPage() {
                         HEAD OFFICE LOCATION
                       </span>
                       <p className="text-sm font-semibold text-slate-900 leading-snug">
-                        6 Waheed Akanni Street, Ago Palace Way, Cele, Lagos state, Nigeria.
+                        6 Waheed Akanni Street, Off Bayo Oyewale Street, Ago Palace Way, Okota, Lagos.
                       </p>
                     </div>
                   </div>
