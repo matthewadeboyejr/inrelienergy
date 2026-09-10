@@ -80,7 +80,7 @@ export default function AboutPage() {
 
             {/* Clean Big Editorial Headline */}
             <h1 className="text-3xl sm:text-5xl lg:text-[56px] xl:text-[62px] font-normal tracking-tight text-slate-950 leading-[1.2] lg:leading-[1.15] max-w-5xl">
-              We provide innovative <span className="text-[#901A1E] font-medium">technological solutions</span> in the power sector. Dedicated to indigenous meter manufacturing, clean solar mini-grids, and eliminating utility losses across Nigeria.
+              We provide innovative <span className="text-[#901A1E] font-medium">technological solutions</span> in the power sector. {/* Dedicated to indigenous meter manufacturing, clean solar mini-grids, and eliminating utility losses across Nigeria. */}
             </h1>
           </div>
 
@@ -92,7 +92,7 @@ export default function AboutPage() {
               <div className="lg:col-span-7 p-8 sm:p-12 rounded-[36px] bg-[#11151c] text-white flex flex-col justify-between shadow-2xl relative overflow-hidden group">
                 {/* Background ambient glow */}
                 <div className="absolute top-0 right-0 w-96 h-96 bg-[#901A1E]/15 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20" />
-                
+
                 <div className="relative z-10 space-y-6">
                   <div className="flex flex-wrap items-center justify-between gap-4">
                     <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/10 text-xs font-mono font-bold text-red-200">
@@ -182,7 +182,7 @@ export default function AboutPage() {
                   className="object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-black/30" />
-                
+
                 <div className="absolute top-6 left-6 right-6 flex items-center justify-between">
                   <span className="px-3.5 py-1.5 rounded-full bg-black/60 backdrop-blur-md border border-white/15 text-[10px] font-mono font-bold text-white">
                     FACTORY &amp; ASSEMBLY LAB
