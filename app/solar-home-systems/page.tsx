@@ -86,7 +86,7 @@ export default function SolarHomeSystemsPage() {
                 <span>CLEAN ENERGY MANUFACTURING</span>
               </div>
 
-              <h2 className="text-[36px] sm:text-[48px] lg:text-[60px] font-normal tracking-tight text-white leading-[1.3] lg:leading-[78px]">
+              <h2 className="text-2xl sm:text-3xl lg:text-[34px] font-normal tracking-tight text-white leading-snug">
                 Solar Home Systems
               </h2>
 

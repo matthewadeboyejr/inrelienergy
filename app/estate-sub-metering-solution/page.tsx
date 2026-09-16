@@ -65,7 +65,7 @@ export default function EstateSubMeteringPage() {
                   <span>ESTATE ARCHITECTURE</span>
                 </div>
 
-                <h2 className="text-[36px] sm:text-[48px] lg:text-[60px] font-normal tracking-tight text-white leading-[1.3] lg:leading-[78px] mb-6">
+                <h2 className="text-2xl sm:text-3xl lg:text-[34px] font-normal tracking-tight text-white leading-snug mb-6">
                   Estate Sub-Metering Solution
                 </h2>
 

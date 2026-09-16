@@ -179,8 +179,7 @@ export default function OurExpertisePage() {
                 <span>TECHNICAL CAPABILITIES</span>
               </div>
 
-              {/* Heading (Geist 400, 60px, 78px line-height) */}
-              <h1 className="text-[36px] sm:text-[48px] lg:text-[60px] font-normal text-slate-950 tracking-tight leading-[1.3] lg:leading-[78px] mb-8">
+              <h1 className="text-2xl sm:text-3xl lg:text-[34px] font-normal text-slate-950 tracking-tight leading-snug mb-8">
                 Inreli Expertise
               </h1>
 

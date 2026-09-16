@@ -32,8 +32,7 @@ export default function Achievements() {
             </div>
           </div>
 
-          {/* Heading consistent with other sections (Geist 400, 60px, 78px line-height) */}
-          <h2 className="text-[32px] sm:text-[44px] lg:text-[56px] xl:text-[60px] font-normal tracking-tight text-white leading-[1.25] lg:leading-[78px]">
+          <h2 className="text-2xl sm:text-3xl lg:text-[34px] font-normal tracking-tight text-white leading-snug">
             One of Our Numerous Achievements
           </h2>
 

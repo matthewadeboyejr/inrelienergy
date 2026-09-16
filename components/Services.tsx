@@ -88,7 +88,7 @@ export default function Services({ onOpenQuote }: ServicesProps) {
               <span className="w-1.5 h-1.5 rounded-full bg-[#901A1E]"></span>
               <span>WHAT WE DO</span>
             </div>
-            <h2 className="text-[36px] sm:text-[48px] lg:text-[60px] font-normal text-slate-950 tracking-tight leading-[1.3] lg:leading-[78px]">
+            <h2 className="text-2xl sm:text-3xl lg:text-[34px] font-normal text-slate-950 tracking-tight leading-snug">
               Our Services
             </h2>
           </div>
