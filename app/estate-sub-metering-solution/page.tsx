@@ -108,7 +108,7 @@ export default function EstateSubMeteringPage() {
               {/* Card 01: Solution 1 - Preferred Tariff Vending Software */}
               <div className="p-7 sm:p-8 rounded-[32px] bg-white text-slate-950 shadow-xl flex flex-col justify-between transition-all duration-300 hover:shadow-2xl">
                 <div className="flex items-start justify-between gap-4 pb-4 border-b border-slate-200">
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight max-w-xs">
+                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight">
                     Custom Tariff Token Generation &amp; Vending Software
                   </h3>
                   <span className="font-mono text-xl sm:text-2xl font-bold text-slate-400">
@@ -116,18 +116,16 @@ export default function EstateSubMeteringPage() {
                   </span>
                 </div>
 
-                <div className="pt-5 grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
-                  <div className="sm:col-span-7 space-y-4">
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify">
-                      We have a solution that allows Estate Management to generate credit token at their preferred tariff rate, while they monitor and take meter readings manually, This solution comes with Vending Software to generate the credit tokens.
-                    </p>
-                  </div>
-                  <div className="sm:col-span-5 relative w-full h-44 sm:h-48 rounded-2xl overflow-hidden bg-slate-50 border border-slate-100 shadow-inner group flex items-center justify-center p-3">
+                <div className="pt-5 space-y-4">
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify [text-wrap:pretty]">
+                    We have a solution that allows Estate Management to generate credit token at their preferred tariff rate, while they monitor and take meter readings manually, This solution comes with Vending Software to generate the credit tokens.
+                  </p>
+                  <div className="relative w-full h-48 sm:h-56 rounded-2xl overflow-hidden bg-slate-50 border border-slate-100 shadow-inner group flex items-center justify-center p-3">
                     <Image
                       src="/customer-interface-Unit.png"
                       alt="Inreli CIU Customer Interface Unit"
                       fill
-                      sizes="(max-width: 640px) 100vw, 240px"
+                      sizes="(max-width: 1024px) 100vw, 600px"
                       className="object-contain p-3 group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
@@ -137,7 +135,7 @@ export default function EstateSubMeteringPage() {
               {/* Card 02: Solution 2 - Full Smart AMI & Back-End Office */}
               <div className="p-7 sm:p-8 rounded-[32px] bg-white text-slate-950 shadow-xl flex flex-col justify-between transition-all duration-300 hover:shadow-2xl">
                 <div className="flex items-start justify-between gap-4 pb-4 border-b border-slate-200">
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight max-w-xs">
+                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight">
                     Full Smart AMI &amp; Remote Back-Office System
                   </h3>
                   <span className="font-mono text-xl sm:text-2xl font-bold text-slate-400">
@@ -145,18 +143,16 @@ export default function EstateSubMeteringPage() {
                   </span>
                 </div>
 
-                <div className="pt-5 grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
-                  <div className="sm:col-span-7 space-y-4">
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify">
-                      We also have a solution that allows Estate Management to generate credit token and monitor every activity on each meter ranging from credit level, vending history, voltage level and so much more. They can get all of this data and information from their back-end office without going to each meter to check manually, this solution comes with AMI Monitoring Systems and Vending Software.
-                    </p>
-                  </div>
-                  <div className="sm:col-span-5 relative w-full h-44 sm:h-48 rounded-2xl overflow-hidden bg-slate-100 shadow-inner group">
+                <div className="pt-5 space-y-4">
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify [text-wrap:pretty]">
+                    We also have a solution that allows Estate Management to generate credit token and monitor every activity on each meter ranging from credit level, vending history, voltage level and so much more. They can get all of this data and information from their back-end office without going to each meter to check manually, this solution comes with AMI Monitoring Systems and Vending Software.
+                  </p>
+                  <div className="relative w-full h-48 sm:h-56 rounded-2xl overflow-hidden bg-slate-100 shadow-inner group">
                     <Image
                       src="/who2.jpg"
                       alt="Inreli Smart STS Sub-Meters"
                       fill
-                      sizes="(max-width: 640px) 100vw, 240px"
+                      sizes="(max-width: 1024px) 100vw, 600px"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>

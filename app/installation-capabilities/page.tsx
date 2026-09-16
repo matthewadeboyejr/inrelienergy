@@ -104,7 +104,7 @@ export default function InstallationCapabilitiesPage() {
               {/* Card 01: Certified Field Safety & HV Equipment */}
               <div className="p-7 sm:p-8 rounded-[32px] bg-white text-slate-950 shadow-xl flex flex-col justify-between transition-all duration-300 hover:shadow-2xl">
                 <div className="flex items-start justify-between gap-4 pb-4 border-b border-slate-200">
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight max-w-xs">
+                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight">
                     Certified Field Safety &amp; High-Voltage Gear
                   </h3>
                   <span className="font-mono text-xl sm:text-2xl font-bold text-slate-400">
@@ -112,18 +112,16 @@ export default function InstallationCapabilitiesPage() {
                   </span>
                 </div>
 
-                <div className="pt-5 grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
-                  <div className="sm:col-span-7 space-y-4">
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify">
-                      The IRL team are well kitted with PPE and very conversant with the use of HV grouding tool, Crimping tools, such that we have highest numbers of installation in Non-Maximum Demand , LV Meters, High Voltage Maximum Demand, Data Concentrator Unit (DCU) and Distribution Transformer Meters.
-                    </p>
-                  </div>
-                  <div className="sm:col-span-5 relative w-full h-44 sm:h-48 rounded-2xl overflow-hidden bg-slate-100 shadow-inner group">
+                <div className="pt-5 space-y-4">
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify [text-wrap:pretty]">
+                    The IRL team are well kitted with PPE and very conversant with the use of HV grouding tool, Crimping tools, such that we have highest numbers of installation in Non-Maximum Demand , LV Meters, High Voltage Maximum Demand, Data Concentrator Unit (DCU) and Distribution Transformer Meters.
+                  </p>
+                  <div className="relative w-full h-48 sm:h-56 rounded-2xl overflow-hidden bg-slate-100 shadow-inner group">
                     <Image
                       src="/who1.jpg"
                       alt="Inreli Field Metering Calibration"
                       fill
-                      sizes="(max-width: 640px) 100vw, 240px"
+                      sizes="(max-width: 1024px) 100vw, 600px"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
@@ -133,7 +131,7 @@ export default function InstallationCapabilitiesPage() {
               {/* Card 02: Mobile Apps & Backend Integration */}
               <div className="p-7 sm:p-8 rounded-[32px] bg-white text-slate-950 shadow-xl flex flex-col justify-between transition-all duration-300 hover:shadow-2xl">
                 <div className="flex items-start justify-between gap-4 pb-4 border-b border-slate-200">
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight max-w-xs">
+                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight">
                     Mobile App &amp; Backend Distribution Sync
                   </h3>
                   <span className="font-mono text-xl sm:text-2xl font-bold text-slate-400">
@@ -141,18 +139,16 @@ export default function InstallationCapabilitiesPage() {
                   </span>
                 </div>
 
-                <div className="pt-5 grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
-                  <div className="sm:col-span-7 space-y-4">
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify">
-                      The IRL team are conversant with the use of mobile apps to manage the interface between the installation process and distribution back-end systems.
-                    </p>
-                  </div>
-                  <div className="sm:col-span-5 relative w-full h-44 sm:h-48 rounded-2xl overflow-hidden bg-slate-100 shadow-inner group">
+                <div className="pt-5 space-y-4">
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify [text-wrap:pretty]">
+                    The IRL team are conversant with the use of mobile apps to manage the interface between the installation process and distribution back-end systems.
+                  </p>
+                  <div className="relative w-full h-48 sm:h-56 rounded-2xl overflow-hidden bg-slate-100 shadow-inner group">
                     <Image
                       src="/whatweoffer1.jpg"
                       alt="Inreli Testing & Calibration Laboratory"
                       fill
-                      sizes="(max-width: 640px) 100vw, 240px"
+                      sizes="(max-width: 1024px) 100vw, 600px"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>

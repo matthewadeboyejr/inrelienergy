@@ -108,7 +108,7 @@ export default function SmartEnergyMeterAmiPage() {
               {/* Card 01: MDMS & HES Integration */}
               <div className="p-7 sm:p-8 rounded-[32px] bg-white text-slate-950 shadow-xl flex flex-col justify-between transition-all duration-300 hover:shadow-2xl">
                 <div className="flex items-start justify-between gap-4 pb-4 border-b border-slate-200">
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight max-w-xs">
+                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight">
                     MDMS &amp; HES System Integration
                   </h3>
                   <span className="font-mono text-xl sm:text-2xl font-bold text-slate-400">
@@ -116,18 +116,16 @@ export default function SmartEnergyMeterAmiPage() {
                   </span>
                 </div>
 
-                <div className="pt-5 grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
-                  <div className="sm:col-span-7 space-y-4">
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify">
-                      <strong className="text-slate-900 font-semibold">Smart AMI integrates</strong> the functions of MDMS and HES and can read and monitor data of different types and devices with different protocols. Also it provides a rich and standard data interface for the rest of the business systems (ERP, GIS, BI, Billing) to fulfill the needs of business expansion.
-                    </p>
-                  </div>
-                  <div className="sm:col-span-5 relative w-full h-44 sm:h-48 rounded-2xl overflow-hidden bg-slate-100 shadow-inner group">
+                <div className="pt-5 space-y-4">
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify [text-wrap:pretty]">
+                    <strong className="text-slate-900 font-semibold">Smart AMI integrates</strong> the functions of MDMS and HES and can read and monitor data of different types and devices with different protocols. Also it provides a rich and standard data interface for the rest of the business systems (ERP, GIS, BI, Billing) to fulfill the needs of business expansion.
+                  </p>
+                  <div className="relative w-full h-48 sm:h-56 rounded-2xl overflow-hidden bg-slate-100 shadow-inner group">
                     <Image
                       src="/whatweoffer1.jpg"
                       alt="Inreli Smart Meter Testing Bench"
                       fill
-                      sizes="(max-width: 640px) 100vw, 240px"
+                      sizes="(max-width: 1024px) 100vw, 600px"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
@@ -137,7 +135,7 @@ export default function SmartEnergyMeterAmiPage() {
               {/* Card 02: Distributed Deployment & Network Security */}
               <div className="p-7 sm:p-8 rounded-[32px] bg-white text-slate-950 shadow-xl flex flex-col justify-between transition-all duration-300 hover:shadow-2xl">
                 <div className="flex items-start justify-between gap-4 pb-4 border-b border-slate-200">
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight max-w-xs">
+                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight">
                     Distributed Deployment &amp; Hardware Security
                   </h3>
                   <span className="font-mono text-xl sm:text-2xl font-bold text-slate-400">
@@ -145,18 +143,16 @@ export default function SmartEnergyMeterAmiPage() {
                   </span>
                 </div>
 
-                <div className="pt-5 grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
-                  <div className="sm:col-span-7 space-y-4">
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify">
-                      With the distributed deployment and the load balancing method, the SmartAMI system can greatly improve the data processing capability. In terms of security, services and data can be secured through a comprehensive range of hardware and network protection.
-                    </p>
-                  </div>
-                  <div className="sm:col-span-5 relative w-full h-44 sm:h-48 rounded-2xl overflow-hidden bg-slate-100 shadow-inner group">
+                <div className="pt-5 space-y-4">
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify [text-wrap:pretty]">
+                    With the distributed deployment and the load balancing method, the SmartAMI system can greatly improve the data processing capability. In terms of security, services and data can be secured through a comprehensive range of hardware and network protection.
+                  </p>
+                  <div className="relative w-full h-48 sm:h-56 rounded-2xl overflow-hidden bg-slate-100 shadow-inner group">
                     <Image
                       src="/who2.jpg"
                       alt="Inreli Smart STS Prepaid Meters"
                       fill
-                      sizes="(max-width: 640px) 100vw, 240px"
+                      sizes="(max-width: 1024px) 100vw, 600px"
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
@@ -166,7 +162,7 @@ export default function SmartEnergyMeterAmiPage() {
               {/* Card 03: Mobile On-Site Field Applications */}
               <div className="p-7 sm:p-8 rounded-[32px] bg-white text-slate-950 shadow-xl flex flex-col justify-between transition-all duration-300 hover:shadow-2xl">
                 <div className="flex items-start justify-between gap-4 pb-4 border-b border-slate-200">
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight max-w-xs">
+                  <h3 className="text-lg sm:text-xl font-bold text-slate-950 tracking-tight">
                     Mobile On-Site Applications
                   </h3>
                   <span className="font-mono text-xl sm:text-2xl font-bold text-slate-400">
@@ -175,7 +171,7 @@ export default function SmartEnergyMeterAmiPage() {
                 </div>
 
                 <div className="pt-5 space-y-4">
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify">
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify [text-wrap:pretty]">
                     At the same time, Our Smart AMI also provides mobile on-site application, which can effectively improve the efficiency of on-site services, thereby improving user satisfaction.
                   </p>
                 </div>
