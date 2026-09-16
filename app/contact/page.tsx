@@ -94,7 +94,7 @@ export default function ContactPage() {
                 <h2 className="text-3xl sm:text-4xl font-bold text-slate-950 tracking-tight mb-4">
                   Get in Touch
                 </h2>
-                <p className="text-xs sm:text-sm lg:text-[15px] text-slate-600 leading-relaxed font-normal mb-8">
+                <p className="text-xs sm:text-sm lg:text-[15px] text-slate-600 leading-relaxed font-normal mb-8 text-justify [text-wrap:pretty]">
                   To make enquiries or to reach our customer care you can call us on the phone number below or fill the form and we will give you a call soon.
                 </p>
 

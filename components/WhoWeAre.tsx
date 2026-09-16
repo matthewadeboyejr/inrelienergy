@@ -58,7 +58,7 @@ export default function WhoWeAre({ onOpenQuote }: WhoWeAreProps) {
                     </span>
                   </div>
 
-                  <p className="text-slate-300 text-xs sm:text-sm lg:text-[15px] leading-relaxed font-normal max-w-2xl">
+                  <p className="text-slate-300 text-xs sm:text-sm lg:text-[15px] leading-relaxed font-normal max-w-2xl text-justify [text-wrap:pretty]">
                     <strong className="text-white font-semibold">INRELI Limited</strong> is a reputable Meter Manufacturing and Renewable Energy Company situated at{" "}
                     <span className="text-white font-medium underline decoration-[#901A1E]">
                       6 Waheed Akanni Street, Ago Palace Way, Okota, Lagos
@@ -160,7 +160,7 @@ export default function WhoWeAre({ onOpenQuote }: WhoWeAreProps) {
                   <h3 className="text-lg font-bold text-slate-950 tracking-tight mb-2">
                     Smart Meters &amp; AMI Systems
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify [text-wrap:pretty]">
                     Prepaid STS split meters (IRL110, IRL310), Maximum Demand smart meters, and Data Concentrator Units with GPRS and PLC telemetry.
                   </p>
                 </div>
@@ -181,7 +181,7 @@ export default function WhoWeAre({ onOpenQuote }: WhoWeAreProps) {
                   <h3 className="text-lg font-bold text-slate-950 tracking-tight mb-2">
                     Clean Solar Mini-Grids &amp; SHS
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify [text-wrap:pretty]">
                     10 kW to 10MW decentralized generation, modular inverter stations, lithium energy storage, and off-grid community electrification.
                   </p>
                 </div>
@@ -202,7 +202,7 @@ export default function WhoWeAre({ onOpenQuote }: WhoWeAreProps) {
                   <h3 className="text-lg font-bold text-slate-950 tracking-tight mb-2">
                     Loss Reduction &amp; Revenue Protection
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify [text-wrap:pretty]">
                     Automated line-loss analysis, transformer metering, sub-metering token vending software, and nationwide installation capabilities.
                   </p>
                 </div>

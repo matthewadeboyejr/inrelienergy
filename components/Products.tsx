@@ -118,7 +118,7 @@ export default function Products({ onOpenQuote }: ProductsProps) {
               Certified Smart Hardware
             </h2>
 
-            <p className="text-sm sm:text-base text-slate-600 font-light leading-relaxed mt-4">
+            <p className="text-sm sm:text-base text-slate-600 font-light leading-relaxed mt-4 text-justify [text-wrap:pretty]">
               Explore our range of STS-compliant smart prepaid energy meters, maximum demand meters, circuit breakers, and customer interface units engineered to international standards.
             </p>
           </div>

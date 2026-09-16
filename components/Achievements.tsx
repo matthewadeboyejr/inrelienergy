@@ -37,7 +37,7 @@ export default function Achievements() {
           </h2>
 
           {/* Body Paragraph */}
-          <p className="text-sm sm:text-base lg:text-lg text-slate-200 font-light leading-relaxed max-w-3xl">
+          <p className="text-sm sm:text-base lg:text-lg text-slate-200 font-light leading-relaxed max-w-3xl text-justify [text-wrap:pretty]">
             INRELI has consistently supplied meters compliant with SON and NEMSA standards, driven continuous technological improvements in metering, and partnered with Integrated Resource Limited (IRL) to ensure prompt deployment and installation.
           </p>
 

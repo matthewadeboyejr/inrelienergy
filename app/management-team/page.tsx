@@ -86,7 +86,7 @@ export default function ManagementTeamPage() {
             Management Team
           </h1>
 
-          <p className="text-sm sm:text-base text-slate-600 font-light leading-relaxed max-w-3xl">
+          <p className="text-sm sm:text-base text-slate-600 font-light leading-relaxed max-w-3xl text-justify [text-wrap:pretty]">
             Seasoned electrical engineers, energy economists, and factory production experts driving indigenous meter manufacturing, renewable innovation, and regulatory excellence across Nigeria.
           </p>
         </div>
@@ -131,7 +131,7 @@ export default function ManagementTeamPage() {
               </div>
 
               {/* Bio Paragraphs (Verbatim Writeup without bold styling) */}
-              <div className="pt-6 space-y-4 text-slate-600 text-xs sm:text-sm lg:text-[15px] leading-relaxed font-normal">
+              <div className="pt-6 space-y-4 text-slate-600 text-xs sm:text-sm lg:text-[15px] leading-relaxed font-normal text-justify [text-wrap:pretty]">
                 {exec.paragraphs.map((p, pIdx) => (
                   <p key={pIdx}>{p}</p>
                 ))}

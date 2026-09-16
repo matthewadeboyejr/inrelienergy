@@ -94,7 +94,7 @@ export default function Services({ onOpenQuote }: ServicesProps) {
           </div>
 
           <div className="lg:col-span-8 flex flex-col justify-between">
-            <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-normal">
+            <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-6 font-normal text-justify [text-wrap:pretty]">
               We deliver a complete process from local meter assembly to turnkey community power generation with
               consistent results. Each solution is engineered for durability, regulatory compliance, and long-term
               reliability across Nigeria.

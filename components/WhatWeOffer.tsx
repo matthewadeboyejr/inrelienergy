@@ -61,7 +61,7 @@ export default function WhatWeOffer({ onOpenQuote }: WhatWeOfferProps) {
               </h2>
 
               {/* Complete 3 Full Paragraphs of Writeup without bold text */}
-              <div className="space-y-5 text-slate-300 text-xs sm:text-sm lg:text-[15px] leading-relaxed font-normal mb-8">
+              <div className="space-y-5 text-slate-300 text-xs sm:text-sm lg:text-[15px] leading-relaxed font-normal mb-8 text-justify [text-wrap:pretty]">
                 <p>
                   Our meters are employed at numerous Nigerian Electricity Distribution Companies including Ibadan Electricity Distribution Company (IBEDC), Abuja Electricity Distribution Company (AEDC) and commencing supply and installation at Benin Electricity Distribution Company (BEDC) and Port Harcourt Electricity Distribution Company (PHED) amongst others.
                 </p>

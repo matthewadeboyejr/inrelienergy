@@ -136,7 +136,7 @@ export default function ProductsPage() {
               <h3 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
                 100% Certified to STS &amp; NEMSA Standards
               </h3>
-              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed font-normal">
+              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed font-normal text-justify [text-wrap:pretty]">
                 All Inreli smart energy meters, maximum demand systems, and circuit breakers undergo stringent type testing and calibration at our factory laboratory in full compliance with Standards Organisation of Nigeria (SON) and Nigerian Electricity Management Services Agency (NEMSA).
               </p>
             </div>
