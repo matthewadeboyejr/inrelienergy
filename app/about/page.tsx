@@ -294,7 +294,7 @@ export default function AboutPage() {
                 </h2>
 
                 {/* Complete Paragraphs of Inreli Writeup */}
-                <div className="space-y-5 text-slate-300 text-xs sm:text-sm lg:text-[15px] leading-relaxed font-normal mb-8">
+                <div className="space-y-5 text-slate-300 text-xs sm:text-sm lg:text-[15px] leading-relaxed font-normal mb-8 text-justify">
                   <p>
                     INRELI Limited is a reputable Meter Manufacturing and Renewable Energy Company situated at 6 Waheed Akanni Street, Off Bayo Oyewale Street, Ago Palace Way, Okota, Lagos.
                   </p>

@@ -70,7 +70,7 @@ export default function InstallationCapabilitiesPage() {
                 </h2>
 
                 {/* Complete Verbatim Top Section Writeup */}
-                <div className="space-y-5 text-slate-300 text-xs sm:text-sm lg:text-[15px] leading-relaxed font-normal mb-8">
+                <div className="space-y-5 text-slate-300 text-xs sm:text-sm lg:text-[15px] leading-relaxed font-normal mb-8 text-justify">
                   <p>
                     <strong className="text-white font-semibold">INRELI partners with Integrated Resources Limited (IRL)</strong> and holds an installation agreement with IRL, an installation company licensed by NERC and boasting extensive professional experience. This entity has completed installations for prominent clients such as <strong className="text-white font-semibold">HUAWEI Technologies Nigeria Ltd, IBEDC, KAEDCO, EKEDP, AEDC, and PHED</strong>.
                   </p>
@@ -114,7 +114,7 @@ export default function InstallationCapabilitiesPage() {
 
                 <div className="pt-5 grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
                   <div className="sm:col-span-7 space-y-4">
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify">
                       The IRL team are well kitted with PPE and very conversant with the use of HV grouding tool, Crimping tools, such that we have highest numbers of installation in Non-Maximum Demand , LV Meters, High Voltage Maximum Demand, Data Concentrator Unit (DCU) and Distribution Transformer Meters.
                     </p>
                   </div>
@@ -143,7 +143,7 @@ export default function InstallationCapabilitiesPage() {
 
                 <div className="pt-5 grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
                   <div className="sm:col-span-7 space-y-4">
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify">
                       The IRL team are conversant with the use of mobile apps to manage the interface between the installation process and distribution back-end systems.
                     </p>
                   </div>

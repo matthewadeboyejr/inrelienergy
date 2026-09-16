@@ -133,7 +133,7 @@ export default function SolarHomeSystemsPage() {
                 <h3 className="text-lg sm:text-xl font-bold text-slate-950 mb-3">
                   1. Manufacturing Solar Home Systems
                 </h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify">
                   Our commitment to sustainable energy extends to manufacturing high-quality solar home systems. These systems are designed to power homes efficiently, reducing reliance on traditional energy sources and contributing to a cleaner environment.
                 </p>
               </div>
@@ -151,7 +151,7 @@ export default function SolarHomeSystemsPage() {
                 <h3 className="text-lg sm:text-xl font-bold text-slate-950 mb-3">
                   2. Micro Small Scale Renewable Energy Requirements
                 </h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify">
                   We understand the unique energy needs of micro and small-scale enterprises. Our solutions cater to these requirements, offering efficient and cost-effective renewable energy solutions tailored to the specific needs of each client.
                 </p>
               </div>
@@ -169,7 +169,7 @@ export default function SolarHomeSystemsPage() {
                 <h3 className="text-lg sm:text-xl font-bold text-slate-950 mb-3">
                   3. Building Mini-Grid Systems
                 </h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify">
                   For communities and businesses looking to establish mini-grid systems, we offer comprehensive solutions. Our expertise encompasses the design, installation, and maintenance of mini-grid systems, including power conversion systems (PCS), battery energy storage systems (BESS), solar panels, poles, conductors, switchgears, charge control, and other protection systems.
                 </p>
               </div>

@@ -119,7 +119,7 @@ export default function MiniGridPage() {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-              <div className="lg:col-span-7 space-y-5 text-slate-600 text-sm sm:text-base lg:text-lg leading-relaxed font-normal">
+              <div className="lg:col-span-7 space-y-5 text-slate-600 text-sm sm:text-base lg:text-lg leading-relaxed font-normal text-justify">
                 <p>
                   A <strong className="text-slate-950 font-semibold">Mini Grid</strong>, also sometimes referred to as a &ldquo;micro grid or isolated grid&rdquo;, can be defined as a set of electricity generators and possibly energy storage systems interconnected to a distribution network that supplies electricity to a localized group of customers.
                 </p>
@@ -185,7 +185,7 @@ export default function MiniGridPage() {
                 </div>
               </div>
 
-              <div className="lg:col-span-7 space-y-5 text-slate-600 text-sm sm:text-base lg:text-lg leading-relaxed font-normal order-1 lg:order-2">
+              <div className="lg:col-span-7 space-y-5 text-slate-600 text-sm sm:text-base lg:text-lg leading-relaxed font-normal order-1 lg:order-2 text-justify">
                 <p>
                   This power delivery architecture can be contrasted to a single customer system such as in the case of a solar home system (SHS).
                 </p>
@@ -221,7 +221,7 @@ export default function MiniGridPage() {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-              <div className="lg:col-span-7 space-y-5 text-slate-600 text-sm sm:text-base lg:text-lg leading-relaxed font-normal">
+              <div className="lg:col-span-7 space-y-5 text-slate-600 text-sm sm:text-base lg:text-lg leading-relaxed font-normal text-justify">
                 <p>
                   Mini-grids have a unique feature as they can operate <strong className="text-slate-950 font-semibold">autonomously</strong> without being connected to a centralized grid.
                 </p>

@@ -70,7 +70,7 @@ export default function EstateSubMeteringPage() {
                 </h2>
 
                 {/* Complete Verbatim Top Section Writeup */}
-                <div className="space-y-5 text-slate-300 text-xs sm:text-sm lg:text-[15px] leading-relaxed font-normal mb-8">
+                <div className="space-y-5 text-slate-300 text-xs sm:text-sm lg:text-[15px] leading-relaxed font-normal mb-8 text-justify">
                   <p>
                     <strong className="text-white font-semibold">Utility sub-metering</strong> is a system that allows the landlord or the property management firm bill the tenants individually since the utility usage is also measured separately. It is a method that involves having individual electricity meters, Individual sub-meters for each residential unit are installed behind the master meter. It requires monitoring of the consumption with the electricity meter installed for each flat.
                   </p>
@@ -118,7 +118,7 @@ export default function EstateSubMeteringPage() {
 
                 <div className="pt-5 grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
                   <div className="sm:col-span-7 space-y-4">
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify">
                       We have a solution that allows Estate Management to generate credit token at their preferred tariff rate, while they monitor and take meter readings manually, This solution comes with Vending Software to generate the credit tokens.
                     </p>
                   </div>
@@ -147,7 +147,7 @@ export default function EstateSubMeteringPage() {
 
                 <div className="pt-5 grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
                   <div className="sm:col-span-7 space-y-4">
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify">
                       We also have a solution that allows Estate Management to generate credit token and monitor every activity on each meter ranging from credit level, vending history, voltage level and so much more. They can get all of this data and information from their back-end office without going to each meter to check manually, this solution comes with AMI Monitoring Systems and Vending Software.
                     </p>
                   </div>

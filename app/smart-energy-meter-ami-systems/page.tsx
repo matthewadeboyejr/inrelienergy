@@ -70,7 +70,7 @@ export default function SmartEnergyMeterAmiPage() {
                 </h2>
 
                 {/* Complete Verbatim Top Section Writeup */}
-                <div className="space-y-5 text-slate-300 text-xs sm:text-sm lg:text-[15px] leading-relaxed font-normal mb-8">
+                <div className="space-y-5 text-slate-300 text-xs sm:text-sm lg:text-[15px] leading-relaxed font-normal mb-8 text-justify">
                   <p>
                     A <strong className="text-white font-semibold">Smart Energy Meter</strong> is an electronic device that records consumption of electric energy and communicates the information to the electricity supplier for monitoring and billing. Smart meters typically record energy hourly or more frequently, and report at least daily. Smart meters enable two-way communication between the meter and the central system. Such an advanced metering infrastructure (AMI) it enables two-way communication between the meter and the supplier. Communications from the meter to the network may be wireless, cellular communications, or via fixed wired connections such as power line carrier (PLC).
                   </p>
@@ -118,7 +118,7 @@ export default function SmartEnergyMeterAmiPage() {
 
                 <div className="pt-5 grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
                   <div className="sm:col-span-7 space-y-4">
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify">
                       <strong className="text-slate-900 font-semibold">Smart AMI integrates</strong> the functions of MDMS and HES and can read and monitor data of different types and devices with different protocols. Also it provides a rich and standard data interface for the rest of the business systems (ERP, GIS, BI, Billing) to fulfill the needs of business expansion.
                     </p>
                   </div>
@@ -147,7 +147,7 @@ export default function SmartEnergyMeterAmiPage() {
 
                 <div className="pt-5 grid grid-cols-1 sm:grid-cols-12 gap-5 items-center">
                   <div className="sm:col-span-7 space-y-4">
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify">
                       With the distributed deployment and the load balancing method, the SmartAMI system can greatly improve the data processing capability. In terms of security, services and data can be secured through a comprehensive range of hardware and network protection.
                     </p>
                   </div>
@@ -175,7 +175,7 @@ export default function SmartEnergyMeterAmiPage() {
                 </div>
 
                 <div className="pt-5 space-y-4">
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal text-justify">
                     At the same time, Our Smart AMI also provides mobile on-site application, which can effectively improve the efficiency of on-site services, thereby improving user satisfaction.
                   </p>
                 </div>
