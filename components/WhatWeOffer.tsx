@@ -57,7 +57,7 @@ export default function WhatWeOffer({ onOpenQuote }: WhatWeOfferProps) {
 
               {/* Headline (Geist - 400, 60px, Line Height 78px, Color rgb(255, 255, 255)) */}
               <h2 className="text-2xl sm:text-3xl lg:text-[34px] font-normal tracking-tight text-white leading-snug mb-6">
-                What We Offer
+                Our Services
               </h2>
 
               {/* Complete 3 Full Paragraphs of Writeup without bold text */}
