@@ -114,7 +114,7 @@ export default function Products({ onOpenQuote }: ProductsProps) {
               <span>HARDWARE CATALOG &amp; METERS</span>
             </div>
 
-            <h2 className="text-[36px] sm:text-[48px] lg:text-[60px] font-normal text-slate-950 tracking-tight leading-[1.3] lg:leading-[78px]">
+            <h2 className="text-2xl sm:text-3xl lg:text-[34px] font-normal text-slate-950 tracking-tight leading-snug">
               Certified Smart Hardware
             </h2>
 

@@ -35,7 +35,7 @@ export default function Partners() {
               <span>INDUSTRY TRUST &amp; ALLIANCES</span>
             </div>
 
-            <h2 className="text-[36px] sm:text-[48px] lg:text-[60px] font-normal text-slate-950 tracking-tight leading-[1.3] lg:leading-[78px] mb-3">
+            <h2 className="text-2xl sm:text-3xl lg:text-[34px] font-normal text-slate-950 tracking-tight leading-snug mb-3">
               Meet Our Partners
             </h2>
             <p className="text-sm sm:text-base text-slate-600 font-light leading-relaxed">

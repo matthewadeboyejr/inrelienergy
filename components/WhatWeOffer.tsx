@@ -56,7 +56,7 @@ export default function WhatWeOffer({ onOpenQuote }: WhatWeOfferProps) {
               </div>
 
               {/* Headline (Geist - 400, 60px, Line Height 78px, Color rgb(255, 255, 255)) */}
-              <h2 className="text-[36px] sm:text-[48px] lg:text-[60px] font-normal tracking-tight text-white leading-[1.3] lg:leading-[78px] mb-6">
+              <h2 className="text-2xl sm:text-3xl lg:text-[34px] font-normal tracking-tight text-white leading-snug mb-6">
                 What We Offer
               </h2>
 
