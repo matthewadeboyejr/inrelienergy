@@ -37,28 +37,18 @@ export default function InstallationCapabilitiesPage() {
         </div>
       </section>
 
-      {/* Editorial Headline Hero with Inline Capsule Image */}
-      <section className="pb-12 px-2 sm:px-4 lg:px-6 w-full">
-        <div className="w-full max-w-[1600px] mx-auto space-y-6">
+      {/* Editorial Headline Hero */}
+      <section className="pb-12 md:pb-16 px-2 sm:px-4 lg:px-6 w-full">
+        <div className="flex flex-col items-center text-center space-y-4 max-w-4xl mx-auto">
           {/* Top Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#901A1E]/10 text-[#901A1E] text-xs font-bold shadow-sm">
             <Wrench className="w-3.5 h-3.5" />
             <span>FIELD OPERATIONS &amp; UTILITY DEPLOYMENT</span>
           </div>
 
-          {/* Full-width Big Editorial Headline with Inline Image Capsule (Geist 400, 60px, 78px) */}
-          <h1 className="text-[32px] sm:text-[44px] lg:text-[56px] xl:text-[60px] font-normal tracking-tight text-slate-950 leading-[1.25] lg:leading-[78px] w-full">
-            Certified turnkey meter deployments{" "}
-            <span className="inline-flex align-middle mx-1 sm:mx-2 relative w-16 sm:w-24 lg:w-28 h-8 sm:h-12 lg:h-13 rounded-full overflow-hidden shadow-sm">
-              <Image
-                src="/who1.jpg"
-                alt="Inreli Installation Calibration"
-                fill
-                sizes="(max-width: 768px) 100px, 120px"
-                className="object-cover object-center"
-              />
-            </span>{" "}
-            for electricity distribution companies and enterprise utilities across Nigeria.
+          {/* Clean Centered Editorial Headline */}
+          <h1 className="text-2xl sm:text-3xl lg:text-[34px] font-normal tracking-tight text-slate-950 leading-snug lg:leading-[1.3]">
+            Certified turnkey meter deployments for electricity distribution companies and enterprise utilities across Nigeria.
           </h1>
         </div>
       </section>

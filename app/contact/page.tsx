@@ -48,16 +48,16 @@ export default function ContactPage() {
 
       {/* Editorial Headline Hero */}
       <section className="pb-12 md:pb-16 px-2 sm:px-4 lg:px-6 w-full">
-        <div className="w-full max-w-[1600px] mx-auto space-y-5">
+        <div className="flex flex-col items-center text-center space-y-4 max-w-4xl mx-auto">
           {/* Top Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#901A1E]/10 text-[#901A1E] text-xs font-bold shadow-sm">
             <Sparkles className="w-3.5 h-3.5 fill-current" />
             <span>CUSTOMER CARE &amp; INQUIRIES</span>
           </div>
 
-          {/* Clean Editorial Headline */}
-          <h1 className="text-3xl sm:text-5xl lg:text-[56px] xl:text-[62px] font-normal tracking-tight text-slate-950 leading-[1.2] lg:leading-[1.15] max-w-5xl">
-            Connect with our <span className="text-[#901A1E] font-medium">engineering and utility consulting team</span> for turnkey energy and metering solutions.
+          {/* Clean Editorial Headline (Single Font Color, Proportionate Size, Centered) */}
+          <h1 className="text-2xl sm:text-3xl lg:text-[34px] font-normal tracking-tight text-slate-950 leading-snug lg:leading-[1.3]">
+            Connect with our engineering and utility consulting team for turnkey energy and metering solutions.
           </h1>
         </div>
       </section>

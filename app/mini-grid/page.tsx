@@ -39,16 +39,16 @@ export default function MiniGridPage() {
 
       {/* Editorial Headline Hero */}
       <section className="pb-12 md:pb-16 px-2 sm:px-4 lg:px-6 w-full">
-        <div className="w-full max-w-[1600px] mx-auto space-y-5">
+        <div className="flex flex-col items-center text-center space-y-4 max-w-4xl mx-auto">
           {/* Top Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#901A1E]/10 text-[#901A1E] text-xs font-bold shadow-sm">
             <Sun className="w-3.5 h-3.5" />
             <span>POWER GENERATION &amp; RENEWABLES</span>
           </div>
 
-          {/* Clean Big Editorial Headline */}
-          <h1 className="text-3xl sm:text-5xl lg:text-[56px] xl:text-[62px] font-normal tracking-tight text-slate-950 leading-[1.2] lg:leading-[1.15] max-w-5xl">
-            Decentralized clean power from <span className="text-[#901A1E] font-medium">10 kW to 10MW</span>, powering localized consumer networks and industrial mini-estates.
+          {/* Clean Centered Editorial Headline */}
+          <h1 className="text-2xl sm:text-3xl lg:text-[34px] font-normal tracking-tight text-slate-950 leading-snug lg:leading-[1.3]">
+            Decentralized clean power from 10 kW to 10MW, powering localized consumer networks and industrial mini-estates.
           </h1>
         </div>
       </section>

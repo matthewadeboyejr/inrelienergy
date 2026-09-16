@@ -13,16 +13,16 @@ export default function WhoWeAre({ onOpenQuote }: WhoWeAreProps) {
   return (
     <section id="who-we-are" className="py-16 md:py-24 px-2 sm:px-4 lg:px-6 bg-[#f8f9fa] text-slate-900 w-full">
       <div className="w-full max-w-[1600px] mx-auto space-y-12">
-        {/* Top Inreli Crimson Badge */}
-        <div className="space-y-4">
+        {/* Top Inreli Crimson Badge & Centered Heading */}
+        <div className="flex flex-col items-center text-center space-y-4 max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#901A1E]/10 text-[#901A1E] text-xs font-bold shadow-sm">
             <Award className="w-3.5 h-3.5" />
             <span>Licensed Local Meter Manufacturer &amp; Renewable Energy Pioneer</span>
           </div>
 
-          {/* Clean Big Editorial Headline */}
-          <h2 className="text-3xl sm:text-5xl lg:text-[56px] xl:text-[62px] font-normal tracking-tight text-slate-950 leading-[1.2] lg:leading-[1.15] max-w-5xl">
-            We provide innovative <span className="text-[#901A1E] font-medium">technological solutions</span> in the power sector. {/* Dedicated to indigenous meter manufacturing, clean solar mini-grids, and eliminating utility losses across Nigeria. */}
+          {/* Clean Centered Editorial Headline (Single Font Color, Proportionate Size) */}
+          <h2 className="text-2xl sm:text-3xl lg:text-[34px] font-normal tracking-tight text-slate-950 leading-snug lg:leading-[1.3]">
+            We provide innovative technological solutions in the power sector.
           </h2>
         </div>
 
